@@ -1,0 +1,24 @@
+#include<stdio.h>
+void Nameste();
+void Bojour();
+int main() {
+    printf("enter f for french & n for nepali : ");
+    char ch;
+    scanf("%c",&ch);
+
+if(ch == 'i') {
+    nameste();  
+} else {
+  bonjour();
+}
+
+    return 0;
+}
+
+void Nameste() {
+    printf("Nameste\n");
+}
+
+void Bojour() {
+printf("Bojour\n");
+}
